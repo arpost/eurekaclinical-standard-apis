@@ -3,16 +3,16 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>eurekaclinical-standard-apis</artifactId>
     <name>Eureka! Clinical Standard APIs</name>
-    <version>4.0-Alpha-4-SNAPSHOT</version>
+    <version>4.1-Alpha-1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <description>A library of classes shared across the Eureka! Clinical platform.</description>
-    
+
     <parent>
         <groupId>org.eurekaclinical</groupId>
         <artifactId>eurekaclinical-parent-standard-deps</artifactId>
-        <version>3</version>
+        <version>4-Alpha-4-SNAPSHOT</version>
     </parent>
-    
+
     <url>https://github.com/eurekaclinical/eurekaclinical-standard-apis.git</url>
 
     <scm>
@@ -21,12 +21,14 @@
         <url>https://github.com/eurekaclinical/eurekaclinical-standard-apis.git</url>
         <tag>HEAD</tag>
     </scm>
-	
+    <properties>
+    	<maven.javadoc.skip>true</maven.javadoc.skip>
+    </properties>
     <issueManagement>
         <system>GitHub</system>
         <url>https://github.com/eurekaclinical/eurekaclinical-standard-apis/issues</url>
     </issueManagement>
-    
+
     <build>
         <plugins>
             <plugin>
